@@ -9,14 +9,24 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  // background-color: #282c34;
+  background-image: linear-gradient(120deg, #f6f9fc 0%, #e3ebf5 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+
+  h2 {
+    color:#1A237E;
+    margin-bottom: 8px;
+  }
+
+  p {
+    color: #9FA8DA;
+    margin-top: 0;
+  }
 }
 
 .App-link {
