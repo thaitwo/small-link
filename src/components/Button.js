@@ -4,8 +4,8 @@ import '../scss/Button.scss';
 class Button extends React.Component {
   render() {
     return (
-      <div>
-        <button className="Button" type="submit">Shorten</button>
+      <div className="Button-wrapper">
+        <button className="Button" type="submit" >Shorten</button>
       </div>
     )
   }
